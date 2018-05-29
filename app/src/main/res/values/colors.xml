@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--COLOR-->
+    <color name="high_priority">#cecf3535</color>
+    <color name="medium_priority">#b92ab734</color>
+    <color name="low_priority">#c0dfd241</color>
+
+    <color name="dark">#1b1a1a</color>
+
+</resources>

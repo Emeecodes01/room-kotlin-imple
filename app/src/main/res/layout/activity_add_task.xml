@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/taskDesEd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="prirority description"/>
+
+    <RadioGroup
+        android:layout_margin="10dp"
+        android:id="@+id/priority_group"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_below="@id/taskDesEd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:text="High"
+            android:id="@+id/high"
+            android:background="@color/high_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:text="Medium"
+            android:id="@+id/medium"
+            android:background="@color/medium_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:text="Low"
+            android:id="@+id/low"
+            android:background="@color/low_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_margin="30dp"
+        android:text="Add Task"
+        android:id="@+id/addTask"
+        android:layout_below="@id/priority_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
